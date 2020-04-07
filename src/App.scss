@@ -1,0 +1,36 @@
+.currency-converter{
+    border: 1px solid #dfe1e5;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    color: #70757a;
+    h2{
+        margin: 0.5rem 0;
+        color: #202020;
+  font-weight: normal;
+    }
+    .currency-row{
+        margin-top: 1rem;
+       
+        .currency-input{
+            width: 10em;
+            border: 1px solid #dfe1e5;
+            border-radius: .5rem;
+            padding: .4rem;
+            font-size: 1.2rem;
+            color: #70757a;
+            
+        }
+        select{
+            text-indent: 5px;
+            font-size: 1.5rem;
+            margin-left: .5rem;
+            background-color: #fff;
+            border-color: #dfe1e5;
+            color: #70757a;
+            font-weight: 100;
+        
+        }
+    }
+
+
+}
