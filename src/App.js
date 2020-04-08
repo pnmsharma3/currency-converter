@@ -38,7 +38,8 @@ function App() {
       
     // get currency exchange rates
     fetch(EXCHANGE_URL).then(res => res.json()).then(data => {
-      setOption([data.base, ...Object.keys(data.rates)])
+   
+      setOption([data.base, ...Object.keys(data.rates)].sort())
       setFromCurrency(data.base)
       setToCurrency(Object.keys(data.rates)[0])
       setExchangeRate(data.rates[Object.keys(data.rates)[0]])
