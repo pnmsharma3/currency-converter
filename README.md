@@ -12,3 +12,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Screenshots
 folder containg Screenshots of working modal
+
+## Docker Image
+https://hub.docker.com/r/pnmsharma/currency-converter
